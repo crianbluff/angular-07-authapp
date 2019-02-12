@@ -14,7 +14,7 @@ export class AuthService {
     clientID: 'Gmb7ygrnwDUGjNJaEihbOzDGEplHXrrN',
     domain: 'crianbluff.auth0.com',
     responseType: 'token id_token',
-    redirectUri: 'https://crianbluff.github.io/angular-07-authapp/callback',
+    redirectUri: 'http://localhost:4200/callback',
     scope: 'openid profile'
   });
 
